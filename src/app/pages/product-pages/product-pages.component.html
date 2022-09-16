@@ -1,0 +1,15 @@
+<h1>{{title | titlecase}}</h1>
+<div class="typesLink">
+  <a routerLink="" [queryParams]="{tab: 0}">income</a>
+  <a routerLink="" [queryParams]="{tab: 1}">outcome</a>
+  <a routerLink="" [queryParams]="{tab: 2}">loan</a>
+  <a routerLink="" [queryParams]="{tab: 3}">investment</a>
+</div>
+<div class="cards">
+  <app-product
+    *ngFor="let product of data"
+    [product]="product"
+  >
+  </app-product>
+</div>
+

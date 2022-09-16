@@ -1,0 +1,14 @@
+.typesLink {
+  a {
+    color: slategray;
+    padding: 10px;
+    text-decoration: none;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
